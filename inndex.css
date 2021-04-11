@@ -1,0 +1,111 @@
+body,
+p {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-left: auto;
+  padding: 1.5em;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+a:hover {
+  text-decoration: underline;
+}
+nav img {
+  height: 20px;
+}
+nav img {
+  height: 20px;
+}
+main {
+  width: 50%;
+  margin: 6.89em auto;
+  text-align: center;
+}
+input {
+  width: 80%;
+  padding: 1em;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid grey;
+}
+.btns-cntainr {
+  margin-top: 1em;
+}
+.btns-cntainr button {
+  padding: 1em;
+  border: none;
+}
+.kolo {
+  margin-top: -120px;
+  margin-bottom: 80px;
+  padding: 0%;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.kolo nav {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+.kolo nav p {
+  min-width: fit-content;
+}
+.kolo div {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: auto;
+}
+.kolo div a {
+  color: rgba(67, 146, 219, 0.952);
+  margin-right: 12px;
+  width: fit-content;
+}
+.kolo div a:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: rgb(240, 237, 237);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.footer-top {
+  padding: 1em;
+  font-size: 12px;
+}
+.footer-bottom {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+}
+.left a {
+  margin-right: 1em;
+  font-size: 12px;
+}
+.middle img {
+  height: 25px;
+  margin-bottom: -9px;
+  padding: 0px;
+}
+.footer-bottom .middle {
+  margin-left: -210px;
+  margin-right: -25px;
+  font-size: 12px;
+}
+.right a {
+  margin-right: 1em;
+  font-size: 12px;
+}
